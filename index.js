@@ -145,7 +145,6 @@ async function run() {
 
 
 
-
         //booking collection
 
         app.get('/booking/:userId',verifyToken, async (req, res) => {
